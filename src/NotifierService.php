@@ -187,7 +187,7 @@ class NotifierService
      * @return NotifierService
      * @author JalalZadeh
      */
-    public function init(string $userUuid, string $provider): static
+    public function init(string $userUuid, string $provider): self
     {
         $this->userUuid = $userUuid;
         $this->provider = $provider;
