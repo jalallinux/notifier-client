@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Facade;
 
 /**
  * Notifier facades method
- * @method static self init(string $userUuid, string $provider)
+ * @method self init(string $userUuid, string $provider)
  * @method Collection databaseSend(string $title, string $message, string $type, string $icon, string $color = null, string $url = null)
  * @method Collection kafkaSend(string $topic, array $body, array $headers, string $key)
  * @method Collection smsSend(string $phone, string $message)
