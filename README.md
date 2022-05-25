@@ -1,4 +1,4 @@
-# notifier-client
+# Notifier Client
 
 ## Install:
 ```
